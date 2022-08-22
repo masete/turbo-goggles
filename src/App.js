@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import SocialLinks from './components/SocialLinks';
 
 export default function App() {
   return (
@@ -8,6 +9,9 @@ export default function App() {
     <div>
       <NavBar />
       <Home />
+
+
+      <SocialLinks />
     </div>
     </>
   )
