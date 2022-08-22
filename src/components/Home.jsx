@@ -23,10 +23,10 @@ const Home = () => {
 
           <div>
             <button 
-            className='text-white w-fit bg-gradient-to-r px-8 py-3 my-2 flex items-center rounded-md from-cyan-500 to-blue-500'>
+            className='group text-white w-fit bg-gradient-to-r px-8 py-3 my-2 flex items-center rounded-md from-cyan-500 to-blue-500 cursor-pointer'>
               Portfolio
-              <span>
-                <MdOutlineKeyboardArrowRight />
+              <span className='group-hover:rotate-90 duration-300'>
+                <MdOutlineKeyboardArrowRight size={25} className='ml-1'/>
               </span>
             
             </button>
@@ -35,7 +35,7 @@ const Home = () => {
 
         </div>
 
-          <img className='h-[400px] rounded-2xl mx-auto md:w-[350px]' src={HeroImage} alt='profile'/>
+          <img className='md:h-[400px] w-2/3 rounded-2xl mx-auto md:w-[350px]' src={HeroImage} alt='profile'/>
 
       </div>
     </div>
