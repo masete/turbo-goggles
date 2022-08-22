@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
@@ -11,6 +11,29 @@ const SocialLinks = () => {
                 <> LinkedIn <FaLinkedinIn size={30}/></>
             ),
             href: "https://www.linkedin.com/in/nicholas-masete-98b157101/",
+            style: 'rounded-tr-md'
+        },
+        {
+            id: 2,
+            child:(
+                <> Github <FaGithub size={30}/></>
+            ),
+            href: "https://github.com/masete"
+        },
+        {
+            id: 3,
+            child:(
+                <> Twitter <FaTwitter size={30}/></>
+            ),
+            href: "https://twitter.com/NicholasMasete"
+        },
+        {
+            id: 4,
+            child:(
+                <> LinkedIn <FaLinkedinIn size={30}/></>
+            ),
+            href: "https://www.linkedin.com/in/nicholas-masete-98b157101/",
+            style: 'rounded-br-md'
         }
     ]
   return (
