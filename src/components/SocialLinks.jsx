@@ -4,6 +4,15 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const SocialLinks = () => {
+    const links = [
+        {
+            id: 1,
+            child:(
+                <> LinkedIn <FaLinkedinIn size={30}/></>
+            ),
+            href: "https://www.linkedin.com/in/nicholas-masete-98b157101/",
+        }
+    ]
   return (
     <>
     <div className='flex flex-col top-[35%] fixed left-0'>
