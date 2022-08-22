@@ -30,10 +30,18 @@ const SocialLinks = () => {
         {
             id: 4,
             child:(
-                <> LinkedIn <FaLinkedinIn size={30}/></>
+                <> mail <HiOutlineMail size={30}/></>
             ),
-            href: "https://www.linkedin.com/in/nicholas-masete-98b157101/",
-            style: 'rounded-br-md'
+            href: "mailto:foo@gmail.com"
+        },
+        {
+            id: 5,
+            child:(
+                <> Resume <BsFillPersonLinesFill size={30}/></>
+            ),
+            href: "/resume.pdf",
+            style: 'rounded-br-md',
+            download: true,
         }
     ]
   return (
