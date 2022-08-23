@@ -8,7 +8,30 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <>
+    <div>
+
+      <div>
+        <div>
+          <p>Portfolio</p>
+          <p>Checkout Some of my work right here</p>
+        </div>
+
+        <div>
+
+          <div>
+            <img src="" alt="" />
+            <div>
+              
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    </>
   )
 }
 
