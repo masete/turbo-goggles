@@ -9,7 +9,7 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 const Portfolio = () => {
   return (
     <>
-    <div>
+    <div name='portfolio' className="bg-gradient-to-b from-black to-gray-800 w-full text-white md: h-screen">
 
       <div>
         <div>
@@ -20,9 +20,11 @@ const Portfolio = () => {
         <div>
 
           <div>
-            <img src="" alt="" />
+            <img src={reactWeather} alt="react weather" />
+
             <div>
-              
+              <button>Demo</button>
+              <button>Code</button>
             </div>
 
           </div>
