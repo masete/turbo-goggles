@@ -18,7 +18,7 @@ const Portfolio = () => {
           <p className="py-6">Checkout Some of my work right here</p>
         </div>
 
-        <div>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
           <div>
             <img src={reactWeather} alt="react weather" />
