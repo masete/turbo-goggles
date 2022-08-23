@@ -20,7 +20,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
-          <div>
+          <div className="shadow-md shadow-gray-600 rounded-lg">
             <img src={reactWeather} alt="react weather" />
 
             <div>
