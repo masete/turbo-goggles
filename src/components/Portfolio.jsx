@@ -50,7 +50,7 @@ const Portfolio = () => {
 
           {
             portfolios.map(({id, src})=>(
-               <div className="shadow-md shadow-gray-600 rounded-lg">
+          <div className="shadow-md shadow-gray-600 rounded-lg">
 
             
             <img src={src} alt="react weather" className="rounded-md duration-200 hover:scale-105"/>
