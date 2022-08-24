@@ -10,8 +10,24 @@ import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
   return (
-    <div>Experience</div>
-  )
-}
+    <>
+    <div>
+        <div>
+            <div>
+                <p>Experience</p>
+                <p>These are technologies that i have worked with.</p>
+            </div>
 
-export default Experience
+            <div>
+                <div>
+                    <img src={html} />
+                    <p>HTml</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </>
+  )
+};
+
+export default Experience;
