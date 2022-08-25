@@ -34,8 +34,13 @@ const Home = () => {
           </div>
 
         </div>
-
-          <img className='md:h-[400px] w-2/3 rounded-2xl mx-auto md:w-[350px]' src={HeroImage} alt='profile'/>
+        <div>
+           <img 
+           className='rounded-2xl mx-auto w-1/3 md:w-[400px]' 
+           src={HeroImage} 
+           alt='profile'/>
+        </div>
+         
 
       </div>
     </div>
