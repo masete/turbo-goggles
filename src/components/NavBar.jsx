@@ -39,7 +39,8 @@ const NavBar = () => {
                 <li 
                 key={id} 
                 className='px-2 text-gray-500 font-medium cursor-pointer capitalize hover:scale-105 duration-200'>
-                {link}
+                
+                <Link to={link} smooth duration={500}>{link}</Link>
                 </li>
             ))} 
             
