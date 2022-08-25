@@ -10,28 +10,23 @@ const About = () => {
             </div>
 
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quasi fugiat quas non provident! Repudiandae tenetur placeat 
-                numquam dicta ducimus? Fuga maxime earum laboriosam. Adipisci 
-                esse ducimus, optio nisi quam laudantium?
+            Am an open-source contributor with an ambitious personality that thrives on challenges.
+             Setting new goals and aiming to be more productive and effective in any environment. 
+             Looking for opportunities where I can be part of engineering impactful software solutions
+              using my hard-earned skills in full-stack development.
 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quasi fugiat quas non provident! Repudiandae tenetur placeat 
-                numquam dicta ducimus? Fuga maxime earum laboriosam. Adipisci 
-                esse ducimus, optio nisi quam laudantium?
+              I have vast experience in python API development using Flask, most of which i developed during 
+              bootcamps ren by andela in their search for exceptional african talent to assign their US based 
+              clients. In the period i learnt alot including python, git, TDD, OOP, DSA, Javascript and technical writing on medium
+
             </p>
 
             <br />
             <p className='text-xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quasi fugiat quas non provident! Repudiandae tenetur placeat 
-                numquam dicta ducimus? Fuga maxime earum laboriosam. Adipisci 
-                esse ducimus, optio nisi quam laudantium?
-
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quasi fugiat quas non provident! Repudiandae tenetur placeat 
-                numquam dicta ducimus? Fuga maxime earum laboriosam. Adipisci 
-                esse ducimus, optio nisi quam laudantium?
+                I have grown over the years working on Data Science dashboards using plotly dash, 
+                building projects using React, NodeJs. I have worked with PostgresQl and mongoDB.
+            
+               I fancy accessibility, search engine optimization and responsiveness in websites.
             </p>
         </div>
     </div>
