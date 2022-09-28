@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-scroll';
+import { Link } from "react-scroll";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 // import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
@@ -12,7 +12,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
-      to: 'https://masete.github.io/Ireporter/ui/login.html'
+      to: 'https://masete.github.io/Ireporter/ui/login.html',
     },
     {
       id: 2,
