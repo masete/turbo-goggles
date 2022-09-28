@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-scroll';
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 // import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
@@ -11,6 +12,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      to: 'https://masete.github.io/Ireporter/ui/login.html'
     },
     {
       id: 2,
@@ -48,7 +50,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, to }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -57,10 +59,10 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                  <Link to={to}>Demo</Link>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  <Link>Code</Link>
                 </button>
               </div>
             </div>
