@@ -13,13 +13,13 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
 
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-              I am a FullStack Developer
+              I am a Data Scientist
           </h2>
 
           <p className='text-gray-500 py-4 max-w-md'>
-          I have 3 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Django, PostgresQl and Git.
+          I have 3 years of experience building and desgining softwares.
+            Currently, I love to work on data science projects using technologies like
+            Python, Machine Learning, Power BI, SQL, Plotly-Dash, React, Tailwind, Flask, PostgresQl and Git.
           </p>
 
           <div>
